@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical">
+    <EditText
+        android:id="@+id/editText_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ID" />
+
+
+    <EditText
+        android:id="@+id/editText_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/editText_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Marks" />
+
+    <Button
+        android:id="@+id/button_ins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="insert" />
+
+    <Button
+        android:id="@+id/button_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fetch" />
+
+    <Button
+        android:id="@+id/button_del"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE" />
+
+    <Button
+        android:id="@+id/button_upd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update" />
+
+
+</LinearLayout>
